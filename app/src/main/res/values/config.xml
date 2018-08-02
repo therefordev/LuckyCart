@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="droidcart_shop_id">1</integer>
+    <string name="droidcart_shop_base">http://www.smarso.com/</string>
+    <string name="droidcart_version">LuckyCart 0.0.1</string>
+</resources>

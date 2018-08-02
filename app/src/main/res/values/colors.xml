@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color-->
+
+    <!-- ACTION BAR -->
+    <color name="colorPrimary">#FFFFFF</color>
+
+    <!-- ABOVE ACTION BAR -->
+    <color name="colorPrimaryDark">#FFCC3D55</color>
+
+    <!-- TEXT -->
+    <color name="textColorPrimary">#FFCC3D55</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+    <!-- SHADER IN ACTION BAR -->
+    <color name="colorAccent">#FF80AB</color>
+
+    <color name="primaryBreak">#3b3f45</color>
+
+    <color name="accentLight">#f7f7f7</color>
+    <color name="accentDark">#7e7e7e</color>
+
+    <color name="accentBackground">#DED5C4</color>
+
+    <color name="lightGrey">#CCC</color>
+</resources>

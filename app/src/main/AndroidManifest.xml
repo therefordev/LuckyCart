@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="smarso.inn.shop.luckycart">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="smarso.inn.shop.luckycart.application.LuckyCart"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="smarso.inn.shop.luckycart.activities.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar.FullScreen"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="smarso.inn.shop.luckycart.activities.ShopFrontActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name="smarso.inn.shop.luckycart.activities.BasketActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name="smarso.inn.shop.luckycart.activities.ProductActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName="smarso.inn.shop.luckycart.activities.ShopFrontActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smarso.inn.shop.luckycart.activities.ShopFrontActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

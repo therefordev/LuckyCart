@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LuckyCart</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_cart">Cart</string>
+
+    <string name="loading">Loading</string>
+
+    <string name="added_basket">Added to Basket</string>
+    <string name="added_wishlist">Added to Wish List</string>
+
+    <string name="undo">Undo</string>
+
+    <string name="basket">Basket</string>
+    <string name="wish_list">Wish List</string>
+
+    <string name="description_expand">Description +</string>
+    <string name="description_collapse">Description -</string>
+
+    <string name="returns_expand">Returns +</string>
+    <string name="returns_collapse">Returns -</string>
+
+</resources>
